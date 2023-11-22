@@ -1,0 +1,100 @@
+
+.home {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+    
+  }
+  body{
+    background-color:#032539 ;
+  }
+  
+
+  .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#f7f7ec;
+    color: #3e3e3b;
+    border-radius: 5%;
+    
+   
+    
+  }
+  .about1 {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#bdbdb3;
+    color: #85857f;
+    border-radius: 5%;
+    
+   
+    
+  }
+
+  .about2 {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+    background-color:#85857f;
+    color: #fbf3f2;
+   
+    
+  }
+
+  .about3 {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    border-radius: 5%;
+    
+    background-color:#3e3e3b;
+    color: #fbf3f2;
+    
+  }
+  .img {
+    width: 70%;
+    height: 70%;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: #e9d35b;
+    height: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .about .prompt {
+    width: 40%;
+    font-size: 30px;
+  }
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+  }
+  
