@@ -1,0 +1,15 @@
+
+
+.about4 {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(71, 116, 188);
+     color: #ffffff;
+    
+    
+  }

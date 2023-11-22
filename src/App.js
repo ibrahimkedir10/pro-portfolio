@@ -1,19 +1,34 @@
 // App.js
-// App.js
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Navbar'; // Fix: Correct file name
+import Header from './components/Navbar';
 import HomePage from './pages/Home';
-import ContactPage from './pages/Contactpage'; // Fix: Correct file name
+import WebsiteRequestForm from './pages/WebsiteRequestForm'; // Fix: Correct file name
+import axios from 'axios';
+
+
 
 const App = () => {
+  const [submissionData, setSubmissionData] = useState(null);
+
+  const handleFormSubmit = (data) => {
+    // Handle form submission data if needed
+  };
+
   return (
     <Router>
       <Header />
-      <Routes>
-        <Route path="/HomePage" element={<HomePage />} />
-        <Route path="/ContactPage" element={<ContactPage />} />
-      </Routes>
+      <div className="App">
+        <Routes>
+          <Route path="/HomePage" element={<HomePage />} />
+          <Route path="/WebsiteRequestForm" element={<WebsiteRequestForm onSubmit={handleFormSubmit} />} />
+        </Routes>
+        {submissionData && (
+          <div className="submission-popup">
+            <p>Thank you for submitting! We'll get in touch with you soon.</p>
+          </div>
+        )}
+      </div>
     </Router>
   );
 };

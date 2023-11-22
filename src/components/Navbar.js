@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
       <div className="links">
         <Link to="/HomePage"> Home </Link>
-        <Link to="/ContactPage"> contact </Link>
+        <Link to="/WebsiteRequestForm"> contact </Link>
         { /*<Link to="/interact"> Interact </Link>*/}
       </div>
     </div>
