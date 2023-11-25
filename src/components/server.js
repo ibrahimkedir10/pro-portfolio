@@ -16,7 +16,7 @@ app.post('/send-email', (req, res) => {
     service: 'outlook',
     auth: {
       user: 'ibrahim.kedir@outlook.com',
-      pass: '4169027739imk',
+      pass: '',
     },
   });
 
