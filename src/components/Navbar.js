@@ -28,7 +28,6 @@ const Navbar = () => {
         <Link to="/HomePage"> Home </Link>
         <Link to="/WebsiteRequestForm"> contact </Link>
         <Link to="/ContactUs"> contact </Link>
-        { /*<Link to="/interact"> Interact </Link>*/}
       </div>
     </div>
   );
