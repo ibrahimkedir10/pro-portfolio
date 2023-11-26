@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Navbar';
 import HomePage from './pages/Home';
 import ContactUs from './components/form';
-import WebsiteRequestForm from './pages/WebsiteRequestForm'; // Fix: Correct file name
 import axios from 'axios';
 
 
@@ -22,7 +21,6 @@ const App = () => {
       <div className="App">
         <Routes>
           <Route path="/HomePage" element={<HomePage />} />
-          <Route path="/WebsiteRequestForm" element={<WebsiteRequestForm onSubmit={handleFormSubmit} />} />
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
         {submissionData && (
